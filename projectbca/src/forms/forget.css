@@ -1,0 +1,19 @@
+.MutedLink {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.inputfp{
+  width: 25rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.inputfp::placeholder{
+ font-size: 1.5rem;
+}
+
+.SubmitButton{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}

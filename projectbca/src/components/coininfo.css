@@ -1,0 +1,28 @@
+.selectbutton {
+  border: 1px solid gold;
+  border-radius: 0.31rem;
+  padding: 0.6rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-family: Mongolian;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  transition: transform 80ms ease-in;
+  width: 22%;
+}
+
+.selectbutton:hover {
+  background-color: gold;
+  color: black;
+  border: transparent;
+}
+
+.selectbutton:focus {
+  background-color: gold;
+  font-weight: 700;
+  transform: scale(0.95);
+  outline: none;
+}
+

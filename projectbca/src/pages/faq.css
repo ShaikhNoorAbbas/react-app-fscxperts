@@ -1,0 +1,64 @@
+.faqpage {
+  background-color: #fff2f2;
+  text-align: center;
+}
+
+
+.logo5 {
+  width: 5.5rem;
+}
+
+.webname {
+  font-size: 3rem;
+  font-family: mongolian;
+  color: black;
+  text-decoration: none;
+  margin-left: 0.6rem;
+}
+
+.webname:hover {
+  color: black;
+}
+
+.faqhead {
+  color: black;
+  font-size: 3rem;
+  font-family: mongolian;
+  margin-top: 2%;
+}
+
+.quest {
+  margin-top: 3%;
+}
+
+
+.butt9 {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgba(0, 0, 0, 0.447);
+  border-radius: 0px;
+  font-size: 1.7rem;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  color: black;
+  width: 80%;
+  text-align: left;
+}
+
+
+#example-collapse-text {
+  color: black;
+  padding: 0.1% 0% 0% 1%;
+  font-size: 1.5rem;
+}
+
+.butt9:hover,
+.butt9:focus {
+  background-color: #fff2f2;
+  box-shadow: none;
+  outline: 0;
+  color: black;
+}

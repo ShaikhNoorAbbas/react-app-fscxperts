@@ -1,0 +1,63 @@
+.sthead {
+  margin-left: 40%;
+  margin-right: auto;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: mongolian;
+}
+.strategy {
+  background-color: #fff2f2;
+}
+.sttable {
+  margin-left: 10%;
+  margin-right: auto;
+  border: 5px solid #2c0187;
+  outline: 5px solid #2c0187;
+  outline-offset: 10px;
+  margin-top: 1%;
+  width: 100rem;
+  margin-bottom: 2%;
+  background-color: white;
+}
+
+.th1 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #2c0187;
+  color: white;
+}
+
+.strow {
+  font-size: 2rem;
+}
+
+.stcol {
+  border: 5px solid #2c0187;
+  padding: 1rem;
+}
+
+.stimg {
+  width: 14rem;
+}
+
+.stexp {
+  font-size: 1.5rem;
+}
+
+.sttitle {
+  text-align: center;
+}
+
+.stid {
+  text-align: center;
+}
+
+.sttableh {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: mongolian;
+  margin-left: 10%;
+  margin-right: auto;
+  color: #2c0187;
+  margin-top: 1%;
+}

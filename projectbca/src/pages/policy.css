@@ -1,0 +1,50 @@
+.polpage {
+  background: #fff2f2;
+  height: 100%;
+}
+
+.policyhead1 {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.25),
+    0 5px 5px 0px rgba(0, 0, 0, 0.22);
+  background-color: white;
+  color: black;
+  font-size: 3rem;
+  border-radius: 0.6rem;
+}
+
+.logo7 {
+  width: 5.5rem;
+}
+
+.poltop{
+  text-align: center;
+}
+
+.webname2 {
+  font-size: 3rem;
+  font-family: mongolian;
+  color: black;
+  text-decoration: none;
+  margin-left: 0.6rem;
+}
+
+.webname2:hover {
+  color: black;
+}
+
+.parapol{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.policyhead2{
+  text-align: center;
+}
+
+.parapol2{
+  margin-left: 4%;
+}

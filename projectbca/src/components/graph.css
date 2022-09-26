@@ -1,0 +1,52 @@
+.crypto-container {
+  display: flex;
+  margin-top: 0.6rem;
+}
+.crypto-bar {
+  width: 30%;
+  align-items: center;
+  border-right: 2px solid grey;
+  margin-bottom: 3.125rem;
+  display: flex;
+  flex-direction: column;
+}
+.crypto-image {
+  height: 15rem;
+  margin-bottom: 1.25rem;
+}
+
+
+.crypto-coin-name {
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.crypto-coin-description {
+  text-decoration: none;
+  color: black;
+  width: "100%";
+  padding: 1.56rem;
+  padding-bottom: 0.9rem;
+  text-align: "justify";
+}
+.crypto-marketdata {
+  padding: 1.56rem;
+  padding-top: 0.6rem;
+  width: 100%;
+}
+.breadcrumbs {
+  padding: 0.9rem;
+  font-size: 2rem;
+}
+.info-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+}
+
+.graphbody{
+  margin-left: 8%;
+}

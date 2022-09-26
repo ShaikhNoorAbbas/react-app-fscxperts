@@ -1,0 +1,374 @@
+.sili-container {
+  padding: 0;
+  margin: 0;
+}
+
+.sili {
+  list-style: none;
+}
+
+.list-color-1 {
+  color: #fff;
+  background-color: none;
+}
+
+.list-color-2 {
+  color: none;
+  background-color: #fff;
+}
+
+.side-menu {
+  position: fixed;
+  background: #2c0187;
+  width: 23rem;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1.87rem 1.25rem;
+  transition: width 0.2s ease-in;
+  border-radius: 0px 1.25rem 0px 0px;
+}
+
+.side-menu.inactive {
+  width: 6rem;
+}
+
+.side-menu .top-section {
+  position: relative;
+}
+
+.side-menu .logoicon {
+  width: 3.8rem;
+  height: 3.7rem;
+  display: inline-block;
+}
+
+.side-menu .logoicon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.side-menu .top-section .logoname {
+  font-size: 2.3rem;
+  color: white;
+  position: absolute;
+  top: 0;
+  margin-top: -0.187rem;
+  margin-left: 4.6rem;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.side-menu.inactive .top-section .logoname {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.side-menu .top-section .toggle-menu-btn {
+  font-size: 1.8rem;
+  position: absolute;
+  color: #2c0187;
+  top: 0;
+  right: -3.5rem;
+  cursor: pointer;
+}
+
+.side-menu .mame .meit {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  font-weight: 500;
+  line-height: 5rem;
+  cursor: pointer;
+}
+
+.side-menu .mame .meit.active {
+  background-color: #fff;
+  color: #2c0187;
+  border-radius: 1.75rem;
+}
+
+.side-menu .mame .meit span {
+  position: absolute;
+  display: inline-block;
+  line-height: 5.7rem;
+  margin-left: 2rem;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.side-menu.inactive .mame .meit span {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.side-menu .mame {
+  margin: 0.31rem 0;
+}
+
+.side-menu .mame .meit .meic {
+  display: inline-block;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.meic {
+  margin-left: 0.5rem;
+}
+
+.side-menu-footer {
+  width: 100%;
+  background: #333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.side-menu-footer .avatar {
+  width: 3rem;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.side-menu-footer .avatar img {
+  max-width: 100%;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.side-menu-footer .logouticon {
+  color: #fff;
+  margin: -0.5rem;
+  margin-left: 15rem;
+  font-size: 2.8rem;
+  position: absolute;
+}
+
+.side-menu.inactive .side-menu-footer .logouticon {
+  opacity: 1;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.logouticon {
+  cursor: pointer;
+}
+
+.side-menu-footer .user-info {
+  display: inline-block;
+  margin: 0 0.6rem;
+  margin-left: 1.4rem;
+  color: #fff;
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.side-menu.inactive .side-menu-footer .user-info {
+  opacity: 1;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.side-menu-footer .user-info h5 {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.side-menu-footer .user-info p {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.divider {
+  width: 100%;
+  height: 0.15rem;
+  margin-top: 1.25rem;
+  border-radius: 1px;
+  background: #fff;
+  margin-bottom: 1.25rem;
+}
+
+.active-list {
+  background-color: #fff;
+}
+
+.sup {
+  color: #fff;
+  font-size: 3.3rem;
+  transform: translateY(-1490%);
+  margin-right: auto;
+  margin-left: 95.5%;
+  padding: 0.31rem;
+  border-radius: 5px;
+  vertical-align: middle;
+  background-color: #2c0187;
+  cursor: pointer;
+  position: fixed;
+}
+
+.loading {
+  height: 60.625rem;
+  width: 100%;
+  background: url("../images/logo.png") no-repeat center;
+  z-index: 0;
+  background-size: 5rem 5rem;
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-height: 1080px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 83.3%;
+  }
+}
+@media (max-height: 900px) {
+  html {
+    font-size: 83.3%;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 71.1%;
+  }
+  .sup {
+    transform: translateY(-1510%);
+  }
+}
+
+@media (max-height: 768px) {
+  html {
+    font-size: 71.1%;
+  }
+  .sup {
+    transform: translateY(-1510%);
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 66.67%;
+  }
+  .sup {
+    transform: translateY(-1500%);
+  }
+}
+@media (max-height: 720px) {
+  html {
+    font-size: 66.67%;
+  }
+  .sup {
+    transform: translateY(-1500%);
+  }
+}
+
+.exit {
+  position: fixed;
+  transform: translateY(-340%);
+  margin-left: 34%;
+  margin-right: auto;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border: 2px solid #2c0187;
+  border-radius: 1.5rem;
+  animation: exa 0.3s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@keyframes exa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.exitt {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.ebuty,
+.ebutn {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.6rem;
+  border-radius: 10rem;
+  margin: 0.5%;
+  margin-top: 5%;
+  margin-left: 1.5%;
+  float: right;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 80ms ease-in;
+}
+
+.ebuty:active,
+.ebutn:active {
+  transform: scale(0.95);
+}
+
+.ebuty {
+  background-color: #3ab449;
+  color: white;
+  border: 2px solid #497e4f;
+}
+
+.ebutn {
+  background-color: #ee1b24;
+  color: white;
+  border: 2px solid #a90d15;
+}
+
+.ebuty:hover {
+  background-color: #3ab448e5;
+}
+
+.ebutn:hover {
+  background-color: #ee1b24e5;
+}
+
+.exitb {
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(3.5px);
+  height: 100%;
+  transform: translateY(-100%);
+  margin-left: -1.25%;
+  margin-top: 1.25%;
+  animation: exa 0.1s ease-in;
+}

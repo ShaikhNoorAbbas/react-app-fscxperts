@@ -1,0 +1,282 @@
+.Main1 {
+  background: url("../images/graph.png"), url("../images/btc.png"),
+    url("../images/exchange.png");
+  background-size: 35rem, 23rem, 33rem;
+  background-position-x: 5%, 90%, 100%;
+  background-position-y: 100%, 5%, 100%;
+  background-repeat: no-repeat;
+  animation: ani 10s 2s linear infinite alternate;
+}
+
+@keyframes ani {
+  from {
+    background-size: 35rem, 23rem, 33rem;
+  }
+  to {
+    background-size: 38.1rem, 27.35rem, 29.8rem;
+  }
+}
+
+.main2 {
+  background-image: url("../images/logo2.png");
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.logo1 {
+  width: 7rem;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.name1 {
+  font-size: 4rem;
+  font-family: mongolian;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.sub1 {
+  font-size: 1rem;
+  font-family: mongolian;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+.tagline1 {
+  font-size: 4.1rem;
+  font-weight: 700;
+  color: #fff;
+  animation: moveright 1s ease-in;
+}
+
+@keyframes moveright {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  80% {
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.tagline2 {
+  font-size: 4.1rem;
+  font-weight: 700;
+  color: #fff;
+  animation: moveleft 1s ease-in;
+}
+
+@keyframes moveleft {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  80% {
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.centert1 {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.navicon {
+  color: #fff;
+  float: right;
+  font-size: 3.2rem;
+  margin-top: 0.6rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  cursor: pointer;
+}
+
+.slc {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 18rem;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  margin-left: 85%;
+  margin-right: 0%;
+  font-size: 2rem;
+  border-radius: 0 0 0 1.5rem;
+  animation: trans;
+}
+
+@keyframes trans {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sl .mi {
+  display: block;
+  color: #fff;
+  padding: 0.8rem 1.3rem;
+  text-decoration: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.sl .mi.active {
+  background-color: #5000fa;
+  color: white;
+}
+
+.sl .mi:hover:not(.active) {
+  background-color: #5000fa;
+  color: white;
+}
+
+.mi {
+  background: none;
+}
+
+.nbtn2:active {
+  transform: scale(0.95);
+}
+
+.nbtn2 {
+  background-color: #000;
+  border: #000;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  animation: startani 2s 0.5s backwards;
+}
+
+@keyframes startani {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nbtn2:hover {
+  background-color: #000;
+  border: #000;
+  color: #fff;
+}
+
+.bt1 {
+  color: #fff;
+  transition: transform 80ms ease-in;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.bt1:hover {
+  color: #fff;
+}
+
+.socail-2 {
+  margin-top: 16.4rem;
+  font-size: 4.1rem;
+  opacity: 1;
+  animation: solvi 2s 0.5s backwards;
+}
+
+@keyframes solvi {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.social-3 {
+  color: #fff;
+  padding: 1rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1rem;
+  background-color: #4700d8;
+}
+.social-3:hover {
+  border: 0.06rem solid #000;
+  background-color: #fff;
+  color: #4700d8;
+  transform: translateY(-0.62rem);
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-height: 1080px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 83.3%;
+  }
+  .centert1 {
+    margin-top: 14rem;
+  }
+  .socail-2 {
+    margin-top: 19.6rem;
+  }
+}
+@media (max-height: 900px) {
+  html {
+    font-size: 83.3%;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 71.1%;
+  }
+  .centert1 {
+    margin-top: 14rem;
+  }
+  .socail-2 {
+    margin-top: 18.6rem;
+  }
+}
+@media (max-height: 768px) {
+  html {
+    font-size: 71.1%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 66.67%;
+  }
+  .centert1 {
+    margin-top: 14rem;
+  }
+  .socail-2 {
+    margin-top: 19.1rem;
+  }
+}
+@media (max-height: 720px) {
+  html {
+    font-size: 66.67%;
+  }
+}

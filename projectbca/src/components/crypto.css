@@ -1,0 +1,132 @@
+body {
+  background-color: #fff2f2;
+}
+
+.cryptob{
+  background-color: #fff2f2;
+  height: 2270vh;
+}
+
+.forexb{
+  background-color: #fff2f2;
+  height: 1370vh;
+}
+
+.stockb{
+  background-color: #fff2f2;
+  height: 1080vh;
+}
+
+.searchc {
+  width: 25%;
+  margin-left: 38%;
+  padding: 0.5rem;
+  margin-top: 0.6rem;
+  height: 3.4rem;
+}
+.searchc::placeholder{
+  font-size: 1.3rem;
+}
+.searchcicon {
+  background-color: #2c0187;
+  color: white;
+  font-size: 3.3rem;
+  padding: 0.7rem;
+  margin-top: -0.1rem;
+  margin-left: -3.2rem;
+}
+
+.searchc:focus {
+  outline: none;
+  border-bottom: 3.5px solid #2c0187;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+.coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin-image {
+  height: 4rem;
+  width: 4rem;
+}
+.coin-name {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.coin-position {
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  color: #f00686;
+  font-weight: bolder;
+}
+.green {
+  color: #11d811;
+  font-weight: bolder;
+}
+
+.coin-app {
+  margin-top: 0.6rem;
+  margin-bottom: 6.25rem;
+  margin-left: 8.125rem;
+  margin-right: 4.375rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
+.coin-head {
+  background-color: #2c0187;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-height: 1080px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 83.3%;
+  }
+}
+@media (max-height: 900px) {
+  html {
+    font-size: 83.3%;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 71.1%;
+  }
+}
+@media (max-height: 768px) {
+  html {
+    font-size: 71.1%;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 66.67%;
+  }
+}
+@media (max-height: 720px) {
+  html {
+    font-size: 66.67%;
+  }
+}
+
